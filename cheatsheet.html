@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>HTML Cheatsheet</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<!--navigation-->
+	<header>
+		<h1>LOGO</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="htmlcheatsheet.html">HTML</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>HTML Cheatsheet</h1>
+	<aside>
+		This is an aside.
+	</aside>
+	<main>
+		This is for Main Content
+		<div> This is a div element. Authors may use such elements instead of paragraph markup for various reasons </div>
+		<section>
+			This is a section
+			<article>This is an article</article>
+		</section>
+	</main>
+	<h1>Block Elements</h1>
+	<hr />
+	<p>This is a test paragraph.</p>
+	<h1>This is H1 <a href="#">level</a> heading</h1>
+	<p>This is a test paragraph.</p>
+	<h2>This is H2 <a href="#">level</a> heading</h2>
+	<p>This is a test paragraph.</p>
+	<h3>This is H3 <a href="#">level</a> heading</h3>
+	<p>This is a test paragraph.</p>
+	<h4>This is H4 <a href="#">level</a> heading</h4>
+	<p>This is a test paragraph.</p>
+	<h5>This is H5 <a href="#">level</a> heading</h5>
+	<p>This is a test paragraph.</p>
+	<h6>This is H6 <a href="#">level</a> heading</h6>
+	<p>This is a test paragraph.</p>
+	<h1>This is H1 level heading</h1>
+	<h3>This is H3 level heading</h3>
+	<h5>This is H5 level heading</h5>
+	<h2>This is H2 level heading</h2>
+	<h4>This is H4 level heading</h4>
+	<h6>This is H6 level heading</h6>
+	<p>This is a test paragraph.</p>
+	<blockquote> "This is a block quotation containing a single paragraph. Well, not quite, since this is not really quoted text, but I hope you understand the point. After all, this page does not use HTML markup very normally anyway." </blockquote>
+	<p>This is a test paragraph.</p>
+	<ul>
+		<li> One. </li>
+		<li> Two. </li>
+		<li> Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items. </li>
+		<li> Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it. </li>
+		<li> Five.
+			<ul>
+				<li> Alpha. </li>
+				<li> Beta. </li>
+				<li> Capa
+					<ul>
+						<li> One. </li>
+						<li> Two. </li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Six.</li>
+	</ul>
+	<ol>
+		<li> One. </li>
+		<li> Two. </li>
+		<li> Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items. </li>
+		<li> Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it. </li>
+		<li> Five.
+			<ol>
+				<li> Alpha. </li>
+				<li> Beta. </li>
+				<li> Capa
+					<ol>
+						<li> One. </li>
+						<li> Two. </li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li>Six.</li>
+	</ol>
+	<address>
+		Some address<br />
+		<a href="#">This is a link</a>
+	</address>
+	<dl>
+		<dt> term </dt>
+		<dd> a word or other expression taken into specific use in a well-defined meaning, which is often defined rather rigorously, even formally, and may differ quite a lot from an everyday meaning </dd>
+	</dl>
+	<h3>table</h3>
+	<hr />
+	<table summary="Each row names a Nordic country and specifies its total area and land area, in square kilometers" border="1">
+		<caption>
+			Sample table: Areas of the Nordic countries, in sq.
+		</caption>
+		<tbody>
+			<tr>
+				<th>Country</th>
+				<th>Total area</th>
+				<th>Land area</th>
+			</tr>
+			<tr>
+				<th>Denmark</th>
+				<td> 43,070 </td>
+				<td> 42,370</td>
+			</tr>
+			<tr>
+				<th>Finland</th>
+				<td colspan="2">337,030 </td>
+			</tr>
+			<tr>
+				<th scope="row">Iceland</th>
+				<td>307,860</td>
+				<td>100,250</td>
+			</tr>
+			<tr>
+				<th scope="row">Norway</th>
+				<td rowspan="2">103,000 </td>
+				<td>307,860</td>
+			</tr>
+			<tr>
+				<th scope="row">Sweden</th>
+				<td>410,928</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Inline Elements</h3>
+	<hr />
+	<p>
+		<abbr title="Mister">Mr.</abbr> is an abbriviation of mister <br />
+		<acronym title="Radio detecting and ranging">RADAR</acronym> is an acronym<br />
+		<b>bolded</b> text
+		<br />
+		<strong>strong</strong> text
+		<br />
+		<cite>Origin of Species</cite> a book citing<br />
+		<code>a[i] = b[i] + c[i);</code> computer code<br />
+		<del>deleted</del> text
+		<br />
+		<dfn>definition</dfn> of something<br />
+		<em>emphasis</em> simple
+		<br />
+		<i lang="la">italic</i> text
+		<br />
+		<ins>inserted</ins> text
+		<br />
+		<kbd>yes</kbd> is a keyboard input<br />
+		<q>Hello!</q> is a quotation<br />
+		<q>She said
+			<q>quote</q> within a quote</q><br />
+		<samp>sample</samp> text
+		<br />
+		<small>small</small> text
+		<br />
+		<strike>overstruck</strike> text
+		<br />
+		<tt>monospace</tt> font
+		<br />
+		<u>underlined</u> text
+		<br />
+		<var>variable</var> text
+		<br />
+		<span>span</span> text
+		<br />
+		<a href="">this is a link</a>
+	</p>
+	<p>In order to test how subscripts and superscripts work inside running text like X<sub>1</sub>, X<sub>1<sub>a+b+c</sub></sub>, M<sup>2</sup> and some nested superscripts X<sup>x<sup>a+b+c</sup></sup>
+	</p>
+	<h3>Inline Sample</h3>
+	<hr />
+	<p>This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of <strong>user style sheets</strong>. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.</p>
+	<p>This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.</p>
+	<p>
+		<abbr title="Mister">Mr.</abbr> is an abbriviation of mister <acronym title="Radio detecting and ranging">RADAR</acronym> is an acronym <b>bolded</b> text <strong>strong</strong> text <big>big</big> text <cite>Origin of Species</cite> a book citing <code>a[i] = b[i] + c[i);</code> computer code <del>deleted</del> text <dfn>definition</dfn> of something <em>emphasis</em> simple <i lang="la">italic</i> text <ins>inserted</ins> text <kbd>yes</kbd> is a keyboard input <q>Hello!</q> is a quotation <q>She said <q>quote</q> within a quote</q> <samp>sample</samp> text <small>small</small> text <strike>overstruck</strike> text <tt>monospace</tt> font <u>underlined</u> text <var>variable</var> text <br /><span>span</span> text <a href="">this is a link</a> In order to test how subscripts and superscripts work inside running text like X<sub>1</sub>, X<sub>1<sub>a+b+c</sub></sub>, M<sup>2</sup> and some nested superscripts X<sup>x<sup>a+b+c</sup></sup>
+	</p>
+	<p>This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.</p>
+	<p><a href="#"  class="btn">link BTN</a></p>
+	<h3>Form</h3>
+	<hr />
+	<div>
+		<form action="" id="formTemplate">
+			<input type="hidden" name="hidden field" value="42">
+			<label for="f1">Single-line text input field:<br />
+				<input id="f1" type="text" name="text1" placeholder="placeholder..." />
+			</label>
+			<br />
+			<label for="f2">Single-line text input field:<br />
+				<input id="f2" type="text" name="text2" value="Default text." />
+			</label>
+			<br />
+			<label for="f0">Password field:<br />
+				<input id="f0" type="password" name="password" placeholder="placeholder..." />
+			</label>
+			<br />
+			<label for="fa">color:<br />
+				<input id="fa" type="color" name="color" placeholder="placeholder..." />
+			</label>
+			<br />
+			<label for="fb">email field:<br />
+				<input id="fb" type="email" name="email" placeholder="placeholder..." />
+			</label>
+			<br />
+			<label for="fc">file:<br />
+				<input id="fc" type="file" name="file"/>
+			</label>
+			<br />
+			<label for="f3">Multi-line text input field (textarea):<br />
+				<textarea id="f3" name="textarea1" placeholder="placeholder..."></textarea>
+			</label>
+			<br />
+			<label for="f4">Multi-line text input field (textarea):<br />
+				<textarea id="f4" name="textarea2">Default text.</textarea>
+			</label>
+			<br />
+			<fieldset>
+				<legend>Legend</legend>
+				<label for="f5">
+					<input id="f5" type="radio" name="radio" value="1">
+					&nbsp;Radio button 1 </label>
+				<br />
+				<label for="f6">
+					<input id="f6" type="radio" name="radio" value="2" checked="">
+					&nbsp;Radio button 2 </label>
+			</fieldset>
+			<fieldset>
+				<legend>Check those that apply</legend>
+				<label for="f7">
+					<input id="f7" type="checkbox" name="checkbox">
+					&nbsp;Checkbox 1 </label>
+				<br />
+				<label for="f8">
+					<input id="f8" type="checkbox" name="checkbox2" checked="">
+					&nbsp;Checkbox 2 </label>
+			</fieldset>
+			<label for="f9">Select:
+				<select id="f9" name="select1">
+					<option>one </option>
+					<option selected="">two (default) </option>
+					<option>three </option>
+				</select>
+			</label>
+			<label for="f10">Select with size="3":
+				<select id="f10" name="select2" size="3">
+					<option>one </option>
+					<option selected="">two (default) </option>
+					<option>three </option>
+				</select>
+			</label>
+			<label for="f11">Button Input<br />
+				<input id="f11" type="button" name="button1" value="input button" />
+			</label>
+			<br />
+			<label for="f12">Button button:<br />
+				<button id="f12" type="button" name="button2" value="bar">Button Button</button>
+			</label>
+			<br />
+			<label for="f13">Reset input:<br />
+				<input id="f13" type="reset" name="reset" value="Reset Input" />
+			</label>
+			<br />
+			<label for="f14">Reset button:<br />
+				<button id="f14" type="reset" name="reset" value="Reset" >Reset Button</button>
+			</label>
+			<br />
+			<label for="f15">Submit button:<br />
+				<input id="f15" type="button" name="subbtn" value="Submit Button" />
+			</label>
+			<br />
+			<label for="f16">Submit input:<br />
+				<input id="f16" type="submit" name="subinput" value="Submit Input">
+			</label>
+			<br />
+			<label for="fd">Submit image:<br />
+				<input id="fd" type="image" name="image" src="assets/blackwidow.jpg" width="70">
+			</label>
+			<br />
+		</form>
+	</div>
+	<div>
+		<h3>Media</h3>
+		<img src="assets/blackwidow.jpg" style="width: 560px">
+		<hr>
+		<audio src="assets/theme_song.mp3" controls style="width: 560px"></audio>
+		<hr>
+		<video src="assets/black_widow_trailer.mp4" controls  style="width: 560px"></video>
+		<hr>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<footer>
+		<p><a href="">page 1</a> <a href="">page 2</a></p>
+	</footer>
+</body>
+
+</html>
