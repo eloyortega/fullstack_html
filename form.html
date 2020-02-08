@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<h1>Form</h1>
+	<form>
+		<label>
+			Name<br>
+			<input type="text" name="nm" placeholder="Bob Garcia" required>
+		</label>
+		<br>
+		<label>
+			Email<br>
+			<input type="email" name="em" placeholder="bob@gmail.com" required>
+		</label>
+		<br>
+		<label>
+			Password<br>
+			<input type="password" name="pw" required>
+		</label>
+		<br>
+		<label>
+			Tel<br>
+			<input type="tel" name="tl" placeholder="212-123-4567" required>
+		</label>
+		<br>
+		<p>Gender</p>
+		<label>
+			<input type="radio" name="gdr" value="m" required> Male
+		</label>
+		<label>
+			<input type="radio" name="gdr" value="f" required> Female
+		</label>
+		<label>
+			<input type="radio" name="gdr" value="n" required> Non-Binary
+		</label>
+		<br>
+		<p>Reply Through</p>
+		<label>
+			<input type="checkbox" name="rpy" value="tel" required> Phone
+		</label>
+		<label>
+			<input type="checkbox" name="rpy" value="email" required> Email
+		</label>
+		<br>
+		<label>
+			State<br>
+			<select name="st" required>
+				<option value="ny">New York</option>
+				<option value="nj">New Jersey</option>
+				<option value="ct">Connecticut</option>
+			</select>
+		</label>
+		<br>
+		<label>
+			Message<br>
+			<textarea name="message" placeholder="Message..."></textarea>
+		</label>
+		<br>
+		<input type="submit" value="Send Now">
+	</form>
+</body>
+</html>
