@@ -1,319 +1,544 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<title>HTML Cheatsheet</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML5 elements and form controls cheatsheet">
+  <title>HTML5 Cheatsheet</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-	<!--navigation-->
-	<header>
-		<h1>LOGO</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="htmlcheatsheet.html">HTML</a></li>
-			</ul>
-		</nav>
-	</header>
-	<h1>HTML Cheatsheet</h1>
-	<aside>
-		This is an aside.
-	</aside>
-	<main>
-		This is for Main Content
-		<div> This is a div element. Authors may use such elements instead of paragraph markup for various reasons </div>
-		<section>
-			This is a section
-			<article>This is an article</article>
-		</section>
-	</main>
-	<h1>Block Elements</h1>
-	<hr />
-	<p>This is a test paragraph.</p>
-	<h1>This is H1 <a href="#">level</a> heading</h1>
-	<p>This is a test paragraph.</p>
-	<h2>This is H2 <a href="#">level</a> heading</h2>
-	<p>This is a test paragraph.</p>
-	<h3>This is H3 <a href="#">level</a> heading</h3>
-	<p>This is a test paragraph.</p>
-	<h4>This is H4 <a href="#">level</a> heading</h4>
-	<p>This is a test paragraph.</p>
-	<h5>This is H5 <a href="#">level</a> heading</h5>
-	<p>This is a test paragraph.</p>
-	<h6>This is H6 <a href="#">level</a> heading</h6>
-	<p>This is a test paragraph.</p>
-	<h1>This is H1 level heading</h1>
-	<h3>This is H3 level heading</h3>
-	<h5>This is H5 level heading</h5>
-	<h2>This is H2 level heading</h2>
-	<h4>This is H4 level heading</h4>
-	<h6>This is H6 level heading</h6>
-	<p>This is a test paragraph.</p>
-	<blockquote> "This is a block quotation containing a single paragraph. Well, not quite, since this is not really quoted text, but I hope you understand the point. After all, this page does not use HTML markup very normally anyway." </blockquote>
-	<p>This is a test paragraph.</p>
-	<ul>
-		<li> One. </li>
-		<li> Two. </li>
-		<li> Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items. </li>
-		<li> Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it. </li>
-		<li> Five.
-			<ul>
-				<li> Alpha. </li>
-				<li> Beta. </li>
-				<li> Capa
-					<ul>
-						<li> One. </li>
-						<li> Two. </li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-		<li>Six.</li>
-	</ul>
-	<ol>
-		<li> One. </li>
-		<li> Two. </li>
-		<li> Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items. </li>
-		<li> Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it. </li>
-		<li> Five.
-			<ol>
-				<li> Alpha. </li>
-				<li> Beta. </li>
-				<li> Capa
-					<ol>
-						<li> One. </li>
-						<li> Two. </li>
-					</ol>
-				</li>
-			</ol>
-		</li>
-		<li>Six.</li>
-	</ol>
-	<address>
-		Some address<br />
-		<a href="#">This is a link</a>
-	</address>
-	<dl>
-		<dt> term </dt>
-		<dd> a word or other expression taken into specific use in a well-defined meaning, which is often defined rather rigorously, even formally, and may differ quite a lot from an everyday meaning </dd>
-	</dl>
-	<h3>table</h3>
-	<hr />
-	<table summary="Each row names a Nordic country and specifies its total area and land area, in square kilometers" border="1">
-		<caption>
-			Sample table: Areas of the Nordic countries, in sq.
-		</caption>
-		<tbody>
-			<tr>
-				<th>Country</th>
-				<th>Total area</th>
-				<th>Land area</th>
-			</tr>
-			<tr>
-				<th>Denmark</th>
-				<td> 43,070 </td>
-				<td> 42,370</td>
-			</tr>
-			<tr>
-				<th>Finland</th>
-				<td colspan="2">337,030 </td>
-			</tr>
-			<tr>
-				<th scope="row">Iceland</th>
-				<td>307,860</td>
-				<td>100,250</td>
-			</tr>
-			<tr>
-				<th scope="row">Norway</th>
-				<td rowspan="2">103,000 </td>
-				<td>307,860</td>
-			</tr>
-			<tr>
-				<th scope="row">Sweden</th>
-				<td>410,928</td>
-			</tr>
-		</tbody>
-	</table>
-	<h3>Inline Elements</h3>
-	<hr />
-	<p>
-		<abbr title="Mister">Mr.</abbr> is an abbriviation of mister <br />
-		<acronym title="Radio detecting and ranging">RADAR</acronym> is an acronym<br />
-		<b>bolded</b> text
-		<br />
-		<strong>strong</strong> text
-		<br />
-		<cite>Origin of Species</cite> a book citing<br />
-		<code>a[i] = b[i] + c[i);</code> computer code<br />
-		<del>deleted</del> text
-		<br />
-		<dfn>definition</dfn> of something<br />
-		<em>emphasis</em> simple
-		<br />
-		<i lang="la">italic</i> text
-		<br />
-		<ins>inserted</ins> text
-		<br />
-		<kbd>yes</kbd> is a keyboard input<br />
-		<q>Hello!</q> is a quotation<br />
-		<q>She said
-			<q>quote</q> within a quote</q><br />
-		<samp>sample</samp> text
-		<br />
-		<small>small</small> text
-		<br />
-		<strike>overstruck</strike> text
-		<br />
-		<tt>monospace</tt> font
-		<br />
-		<u>underlined</u> text
-		<br />
-		<var>variable</var> text
-		<br />
-		<span>span</span> text
-		<br />
-		<a href="">this is a link</a>
-	</p>
-	<p>In order to test how subscripts and superscripts work inside running text like X<sub>1</sub>, X<sub>1<sub>a+b+c</sub></sub>, M<sup>2</sup> and some nested superscripts X<sup>x<sup>a+b+c</sup></sup>
-	</p>
-	<h3>Inline Sample</h3>
-	<hr />
-	<p>This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of <strong>user style sheets</strong>. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.</p>
-	<p>This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.</p>
-	<p>
-		<abbr title="Mister">Mr.</abbr> is an abbriviation of mister <acronym title="Radio detecting and ranging">RADAR</acronym> is an acronym <b>bolded</b> text <strong>strong</strong> text <big>big</big> text <cite>Origin of Species</cite> a book citing <code>a[i] = b[i] + c[i);</code> computer code <del>deleted</del> text <dfn>definition</dfn> of something <em>emphasis</em> simple <i lang="la">italic</i> text <ins>inserted</ins> text <kbd>yes</kbd> is a keyboard input <q>Hello!</q> is a quotation <q>She said <q>quote</q> within a quote</q> <samp>sample</samp> text <small>small</small> text <strike>overstruck</strike> text <tt>monospace</tt> font <u>underlined</u> text <var>variable</var> text <br /><span>span</span> text <a href="">this is a link</a> In order to test how subscripts and superscripts work inside running text like X<sub>1</sub>, X<sub>1<sub>a+b+c</sub></sub>, M<sup>2</sup> and some nested superscripts X<sup>x<sup>a+b+c</sup></sup>
-	</p>
-	<p>This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.</p>
-	<p><a href="#"  class="btn">link BTN</a></p>
-	<h3>Form</h3>
-	<hr />
-	<div>
-		<form action="" id="formTemplate">
-			<input type="hidden" name="hidden field" value="42">
-			<label for="f1">Single-line text input field:<br />
-				<input id="f1" type="text" name="text1" placeholder="placeholder..." />
-			</label>
-			<br />
-			<label for="f2">Single-line text input field:<br />
-				<input id="f2" type="text" name="text2" value="Default text." />
-			</label>
-			<br />
-			<label for="f0">Password field:<br />
-				<input id="f0" type="password" name="password" placeholder="placeholder..." />
-			</label>
-			<br />
-			<label for="fa">color:<br />
-				<input id="fa" type="color" name="color" placeholder="placeholder..." />
-			</label>
-			<br />
-			<label for="fb">email field:<br />
-				<input id="fb" type="email" name="email" placeholder="placeholder..." />
-			</label>
-			<br />
-			<label for="fc">file:<br />
-				<input id="fc" type="file" name="file"/>
-			</label>
-			<br />
-			<label for="f3">Multi-line text input field (textarea):<br />
-				<textarea id="f3" name="textarea1" placeholder="placeholder..."></textarea>
-			</label>
-			<br />
-			<label for="f4">Multi-line text input field (textarea):<br />
-				<textarea id="f4" name="textarea2">Default text.</textarea>
-			</label>
-			<br />
-			<fieldset>
-				<legend>Legend</legend>
-				<label for="f5">
-					<input id="f5" type="radio" name="radio" value="1">
-					&nbsp;Radio button 1 </label>
-				<br />
-				<label for="f6">
-					<input id="f6" type="radio" name="radio" value="2" checked="">
-					&nbsp;Radio button 2 </label>
-			</fieldset>
-			<fieldset>
-				<legend>Check those that apply</legend>
-				<label for="f7">
-					<input id="f7" type="checkbox" name="checkbox">
-					&nbsp;Checkbox 1 </label>
-				<br />
-				<label for="f8">
-					<input id="f8" type="checkbox" name="checkbox2" checked="">
-					&nbsp;Checkbox 2 </label>
-			</fieldset>
-			<label for="f9">Select:
-				<select id="f9" name="select1">
-					<option>one </option>
-					<option selected="">two (default) </option>
-					<option>three </option>
-				</select>
-			</label>
-			<label for="f10">Select with size="3":
-				<select id="f10" name="select2" size="3">
-					<option>one </option>
-					<option selected="">two (default) </option>
-					<option>three </option>
-				</select>
-			</label>
-			<label for="f11">Button Input<br />
-				<input id="f11" type="button" name="button1" value="input button" />
-			</label>
-			<br />
-			<label for="f12">Button button:<br />
-				<button id="f12" type="button" name="button2" value="bar">Button Button</button>
-			</label>
-			<br />
-			<label for="f13">Reset input:<br />
-				<input id="f13" type="reset" name="reset" value="Reset Input" />
-			</label>
-			<br />
-			<label for="f14">Reset button:<br />
-				<button id="f14" type="reset" name="reset" value="Reset" >Reset Button</button>
-			</label>
-			<br />
-			<label for="f15">Submit button:<br />
-				<input id="f15" type="button" name="subbtn" value="Submit Button" />
-			</label>
-			<br />
-			<label for="f16">Submit input:<br />
-				<input id="f16" type="submit" name="subinput" value="Submit Input">
-			</label>
-			<br />
-			<label for="fd">Submit image:<br />
-				<input id="fd" type="image" name="image" src="assets/blackwidow.jpg" width="70">
-			</label>
-			<br />
-		</form>
-	</div>
-	<div>
-		<h3>Media</h3>
-		<img src="assets/blackwidow.jpg" style="width: 560px">
-		<hr>
-		<audio src="assets/theme_song.mp3" controls style="width: 560px"></audio>
-		<hr>
-		<video src="assets/black_widow_trailer.mp4" controls  style="width: 560px"></video>
-		<hr>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-	
-	
-	<footer>
-		<p><a href="">page 1</a> <a href="">page 2</a></p>
-	</footer>
-	<ol>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="text.html">Text</a></li>
-		<li><a href="textformatting.html">Text Formatting</a></li>
-		<li><a href="links.html">Links</a></li>
-		<li><a href="media.html">Media</a></li>
-		<li><a href="nestedelements.html">Nested Elements</a></li>
-		<li><a href="container.html">Containers</a></li>
-		<li><a href="form.html">Form</a></li>
-		<li><a href="cheatsheet.html">Cheatsheet</a></li>
-	</ol>
-</body>
+  <!-- Comment -->
+  
+  <header>
+    <h1>LOGO</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="htmlcheatsheet.html">HTML</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <div>
+    <header>
+      <h1>HTML5 Cheatsheet</h1>
+      <p>A reference page demonstrating modern HTML5 elements and attributes.</p>
+    </header>
+    
+    <section>
+      <h2>Text Elements</h2>
+      <hr>
+
+      <h1>This is H1 level heading</h1>
+      <h2>This is H2 level heading</h2>
+      <h3>This is H3 level heading</h3>
+      <h4>This is H4 level heading</h4>
+      <h5>This is H5 level heading</h5>
+      <h6>This is H6 level heading</h6>
+      <p>This is a paragraph.</p>
+      <p>This is another paragraph.</p>
+
+      <blockquote cite="https://example.com">
+        <p>This is a block quotation containing a single paragraph.</p>
+      </blockquote>
+
+      <address>
+        Some address<br>
+        <a href="#">This is a link</a>
+      </address>
+
+      <dl>
+        <dt>term</dt>
+        <dd>A word or other expression taken into specific use in a well-defined meaning.</dd>
+      </dl>
+
+      <p> &amp; &lt; &gt; &quot; &apos; &cent; &pound; &yen; &euro; &dollar; &copy; &reg; &trade; &sect; &para; &deg; &plusmn; &times; &divide; &frac14; &frac12; &frac34; &sup1; &sup2; &sup3; &micro; &middot; &bull; &hellip; &prime; &Prime; &laquo; &raquo; &lsaquo; &rsaquo; &lsquo; &rsquo; &ldquo; &rdquo; &sbquo; &bdquo; &ndash; &mdash; &minus; &lowast; &dagger; &Dagger; &ddagger; &there4; &permil; &infin; &forall; &exist; &empty; &isin; &notin; &ni; &sum; &prod; &radic; &prop; &sim; &cong; &asymp; &ne; &equiv; &le; &ge; &lt; &gt; &and; &or; &not; &cap; &cup; &sub; &sup; &sube; &supe; &oplus; &ominus; &otimes; &oslash; &Oslash; &part; &nabla; &larr; &uarr; &rarr; &darr; &harr; &lArr; &uArr; &rArr; &dArr; &hArr; &crarr; &hookleftarrow; &hookrightarrow; &mapsto; &spades; &clubs; &hearts; &diams; &alpha; &beta; &gamma; &delta; &epsilon; &zeta; &eta; &theta; &iota; &kappa; &lambda; &mu; &nu; &xi; &omicron; &pi; &rho; &sigma; &tau; &upsilon; &phi; &chi; &psi; &omega; &Alpha; &Beta; &Gamma; &Delta; &Epsilon; &Zeta; &Eta; &Theta; &Iota; &Kappa; &Lambda; &Mu; &Nu; &Xi; &Omicron; &Pi; &Rho; &Sigma; &Tau; &Upsilon; &Phi; &Chi; &Psi; &Omega; &nbsp; &ensp; &emsp; &thinsp; &zwnj; &zwj; &lrm; &rlm;</p>
+
+      <p>
+        <abbr title="Mister">Mr.</abbr> is an abbreviation of mister<br>
+        <b>bolded</b> text<br>
+        <strong>strong</strong> text<br>
+        <cite>On the Origin of Species</cite> is a cited work<br>
+        <code>a[i] = b[i] + c[i];</code> computer code<br>
+        <del>deleted</del> text<br>
+        <dfn>definition</dfn> of something<br>
+        <em>emphasis</em> text<br>
+        <i lang="la">italic</i> text<br>
+        <ins>inserted</ins> text<br>
+        <kbd>Ctrl</kbd> + <kbd>S</kbd> is a keyboard input<br>
+        <mark>highlighted</mark> text<br>
+        <q>Hello!</q> is a quotation<br>
+        <samp>sample</samp> output<br>
+        <small>small</small> text<br>
+        <s>no longer accurate</s> text<br>
+        <u>underlined</u> text<br>
+        <var>x</var> is a variable<br>
+        <span>span</span> text<br>
+        <a href="#">this is a link</a><br>
+        <data value="12345">Product 12345</data><br>
+        The event begins at <time datetime="18:00">6:00 PM</time>.
+        H<sub>2</sub>O, X<sub>1</sub>.
+      </p>
+    </section>
+    <section>
+      <h2>Components</h2>
+      <hr>
+
+      <h3>List</h3>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ul>
+            <li>Alpha</li>
+            <li>Beta</li>
+            <li>Capa
+              <ul>
+                <li>One</li>
+                <li>Two</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Four</li>
+      </ul>
+
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ol>
+            <li>Alpha</li>
+            <li>Beta</li>
+            <li>Capa
+              <ol>
+                <li>One</li>
+                <li>Two</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li>Four</li>
+      </ol>
+
+      <h3>Table</h3>
+      <table border="1">
+        <caption>Sample table: Areas of the Nordic countries, in square kilometers</caption>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Total area</th>
+            <th>Land area</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Denmark</th>
+            <td>43,070</td>
+            <td>42,370</td>
+          </tr>
+          <tr>
+            <th>Finland</th>
+            <td>337,030</td>
+            <td>303,890</td>
+          </tr>
+          <tr>
+            <th>Iceland</th>
+            <td>103,000</td>
+            <td>100,250</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <td colspan="2">1,318,672</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section>
+      <h2>Containers</h2>
+      <hr>
+
+      <header>
+        <p>Header <code>&lt;header&gt;</code></p>
+      </header>
+      <main>
+        <p>Main <code>&lt;main&gt;</code></p> 
+      </main>
+      <aside>
+        <p>Aside <code>&lt;aside&gt;</code></p>
+      </aside>
+      <section>
+        <p>Section <code>&lt;section&gt;</code></p>
+      </section>
+      <article>
+        <p>Article <code>&lt;article&gt;</code></p>
+      </article>
+      <div>
+        <p>Div <code>&lt;div&gt;</code></p>
+      </div>
+      <footer>
+        <p>Footer <code>&lt;footer&gt;</code></p>
+      </footer>
+    </section>
+    <section>
+      <h2>Media</h2>
+      <br>
+      <figure>
+        <picture>
+          <source media="(max-width: 300px)" srcset="assets/blackwidow.jpg">
+          <img src="assets/blackwidow.jpg" alt="Black Widow promotional image" width="300">
+        </picture>
+        <figcaption>Responsive image using picture, source, and figcaption.</figcaption>
+      </figure>
+      <br>
+      <audio controls>
+        <source src="assets/theme_song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <br>
+      <video controls width="300" poster="assets/blackwidow.jpg">
+        <source src="assets/black_widow_trailer.mp4" type="video/mp4">
+        <track kind="captions" srclang="en" label="English captions" src="assets/captions.vtt">
+        Your browser does not support the video element.
+      </video>
+    </section>
+    <section id="target">
+      <h2>iFrame</h2>
+      <hr>
+
+      <iframe src="index.html" width="300"></iframe>
+      <br>
+      <iframe src="https://www.w3schools.com/" width="300"></iframe>
+      <br>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193239.06486507974!2d-74.114067321875!3d40.82004710000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6657fa896f5%3A0xa785a9c0ac09561a!2sThe%20City%20College%20of%20New%20York!5e0!3m2!1sen!2sus!4v1787014496785!5m2!1sen!2sus"
+        width="300"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <iframe
+        width="100%"
+        height="300"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay; encrypted-media"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1280918764&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <div
+        style="
+          font-size: 10px;
+          color: #cccccc;
+          line-break: anywhere;
+          word-break: normal;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-family:
+              Interstate,
+              Lucida Grande,
+              Lucida Sans Unicode,
+              Lucida Sans,
+              Garuda,
+              Verdana,
+              Tahoma,
+              sans-serif;
+          font-weight: 100;">
+        <a
+          href="https://soundcloud.com/lorne-balfe-official"
+          title="Lorne Balfe"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >Lorne Balfe</a>·<a
+          href="https://soundcloud.com/lorne-balfe-official/sets/black-widow-original-motion"
+          title="Black Widow (Original Motion Picture Soundtrack)"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none">
+          Black Widow (Original Motion Picture Soundtrack)
+        </a>
+      </div>
+      <iframe
+        width="300"
+        height="200"
+        src="https://www.youtube.com/embed/RxAtuMu_ph4?si=vDu7BhlKuQ0nqI5c"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </section>
+    <section>
+      <h2>Links</h2>
+      <hr>
+
+      <p>
+        <a href="index.html">About</a><br>
+        <a href="mailto:info@artbyeloi.com">Email</a><br>
+        <a href="tel:+12121234567">Call</a><br>
+        <a href="https://www.w3schools.com/" target="_blank">Absolute Link</a><br>
+        <a href="#target">Scroll to Target</a>
+      </p>
+    </section>
+    <section>
+      <h2>Form</h2>
+      <hr>
+      <form action="" method="post" id="formTemplate" autocomplete="on">
+        <input type="hidden" name="hidden_field" value="42">
+        <fieldset>
+          <legend>Text and Contact Inputs</legend>
+          <label for="f1">Single-line text input field:<br>
+            <input id="f1" type="text" name="text1" placeholder="placeholder..." autocomplete="name">
+          </label>
+          <br>
+          <label for="f0">Password field:<br>
+            <input id="f0" type="password" name="password" placeholder="placeholder..." autocomplete="current-password">
+          </label>
+          <br>
+          <label for="fb">Email field:<br>
+            <input id="fb" type="email" name="email" placeholder="name@example.com" autocomplete="email">
+          </label>
+          <br>
+          <label for="tel">Telephone:<br>
+            <input id="tel" type="tel" name="telephone" placeholder="555-555-5555" autocomplete="tel">
+          </label>
+          <br>
+          <label for="url">URL:<br>
+            <input id="url" type="url" name="url" placeholder="https://example.com">
+          </label>
+          <br>
+          <label for="search">Search:<br>
+            <input id="search" type="search" name="search" placeholder="Search...">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Date and Time Inputs</legend>
+          <label for="date">Date:<br>
+            <input id="date" type="date" name="date">
+          </label>
+          <br>
+          <label for="datetime">Date and time:<br>
+            <input id="datetime" type="datetime-local" name="datetime">
+          </label>
+          <br>
+          <label for="month">Month:<br>
+            <input id="month" type="month" name="month">
+          </label>
+          <br>
+          <label for="week">Week:<br>
+            <input id="week" type="week" name="week">
+          </label>
+          <br>
+          <label for="time">Time:<br>
+            <input id="time" type="time" name="time">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Numeric and Selection Inputs</legend>
+          <label for="number">Number:<br>
+            <input id="number" type="number" name="number" min="0" max="100" step="1" value="50">
+          </label>
+          <br>
+          <label for="range">Range:<br>
+            <input id="range" type="range" name="range" min="0" max="100" value="50">
+          </label>
+          <br>
+          <label for="color">Color:<br>
+            <input id="color" type="color" name="color" value="#000000">
+          </label>
+          <br>
+          <label for="file">File:<br>
+            <input id="file" type="file" name="file" accept="image/*">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Multi-line Text</legend>
+          <label for="f3">Multi-line text input field:<br>
+            <textarea id="f3" name="textarea1" rows="4" cols="40" placeholder="placeholder..."></textarea>
+          </label>
+          <br>
+          <label for="f4">Multi-line text input field:<br>
+            <textarea id="f4" name="textarea2" rows="4" cols="40">Default text.</textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Radio Buttons</legend>
+          <label for="f5">
+            <input id="f5" type="radio" name="radio" value="1">
+            Radio button 1
+          </label>
+          <br>
+          <label for="f6">
+            <input id="f6" type="radio" name="radio" value="2" checked>
+            Radio button 2
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Check Those That Apply</legend>
+          <label for="f7">
+            <input id="f7" type="checkbox" name="checkbox" value="1">
+            Checkbox 1
+          </label>
+          <br>
+          <label for="f8">
+            <input id="f8" type="checkbox" name="checkbox2" value="2" checked>
+            Checkbox 2
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Select and Datalist</legend>
+
+          <label for="f9">Select:<br>
+            <select id="f9" name="select1">
+              <option value="one">one</option>
+              <option value="two" selected>two (default)</option>
+              <option value="three">three</option>
+            </select>
+          </label>
+          <br>
+          <label for="f10">Select with size="3":<br>
+            <select id="f10" name="select2" size="3">
+              <option value="one">one</option>
+              <option value="two" selected>two (default)</option>
+              <option value="three">three</option>
+            </select>
+          </label>
+          <br>
+          <label for="browser">Choose a browser:<br>
+            <input id="browser" name="browser" list="browsers">
+          </label>
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+          </datalist>
+        </fieldset>
+        <fieldset>
+          <legend>Buttons</legend>
+          <button id="f12" type="button" name="button2" value="bar">Button</button>
+          <br>
+          <input id="f13" type="reset" name="reset" value="Reset Input">
+          <br>
+          <button id="f14" type="reset" name="reset_button" value="reset">Reset Button</button>
+          <br>
+          <input id="f16" type="submit" name="subinput" value="Submit Input">
+          <br>
+          <button type="submit" name="submit_button" value="submit">Submit Button</button>
+          <br>
+          <button type="submit" name="image_submit" value="image" aria-label="Submit image">
+            <img src="assets/blackwidow.jpg" alt="" width="70">
+          </button>
+        </fieldset>
+
+        <fieldset>
+          <legend>Validation Attributes</legend>
+          <br>
+          <label for="required">Required:<br>
+            <input id="required" type="text" name="required" required>
+          </label>
+          <br>
+          <label for="pattern">Pattern:<br>
+            <input id="pattern" type="text" name="pattern" pattern="[A-Za-z]{3,}" title="At least 3 letters">
+          </label>
+          <br>
+          <label for="minlength">Minimum length:<br>
+            <input id="minlength" type="text" name="minlength" minlength="3" maxlength="20">
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Output and Progress</legend>
+          <label for="meter">Meter:<br>
+            <meter id="meter" min="0" max="100" low="25" high="75" optimum="90" value="50">70%</meter>
+          </label>
+          <br>
+          <label for="progress">Progress:<br>
+            <progress id="progress" max="100" value="65">65%</progress>
+          </label>
+          <br>
+          <output name="result" for="number range">50</output>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <h2>Graphics and Embedded Content</h2>
+      <canvas id="demoCanvas" width="560" height="120">
+        Your browser does not support the canvas element.
+      </canvas>
+      <p>
+        <svg width="240" height="100" viewBox="0 0 240 100" role="img" aria-labelledby="svg-title">
+          <title id="svg-title">Example SVG graphic</title>
+          <rect x="10" y="10" width="220" height="80" rx="10" fill="none" stroke="currentColor" stroke-width="3"></rect>
+          <circle cx="60" cy="50" r="20" fill="currentColor"></circle>
+          <text x="95" y="57" font-size="20">SVG</text>
+        </svg>
+      </p>
+      <object data="assets/blackwidow.jpg" type="image/jpeg" width="300" aria-label="Embedded image">
+        <p>Embedded content is unavailable.</p>
+      </object>
+      <embed src="assets/blackwidow.jpg" type="image/jpeg" width="300" aria-label="Embedded image">
+    </section>
+
+    <section>
+      <h2>Interactive Elements</h2>
+      <hr>
+      
+      <details>
+        <summary>Details and Summary</summary>
+        <p>The <code>details</code> element creates a disclosure widget.</p>
+      </details>
+      
+      <dialog id="exampleDialog">
+        <p>This is a native HTML dialog.</p>
+        <form method="dialog">
+          <button type="submit">Close</button>
+        </form>
+      </dialog>
+      <button type="button" onclick="document.getElementById('exampleDialog').showModal()">
+        Open Dialog
+      </button>
+    </section>
+
+    <section aria-labelledby="template-heading">
+      <h2 id="template-heading">Template</h2>
+
+      <template id="cardTemplate">
+        <article>
+          <h3>Template Content</h3>
+          <p>This content is stored in a template and is not rendered until JavaScript clones it.</p>
+        </article>
+      </template>
+    </section>
+  </div>
+
+  <footer>
+    <nav>
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="text.html">Text</a></li>
+        <li><a href="textformatting.html">Text Formatting</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="nestedelements.html">Nested Elements</a></li>
+        <li><a href="container.html">Containers</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="cheatsheet.html">Cheatsheet</a></li>
+      </ol>
+    </nav>
+
+    <small>&copy; 2026 HTML5 Cheatsheet</small>
+  </footer>
+
+  <script>
+    // Comment
+    const canvas = document.getElementById("demoCanvas");
+    const context = canvas.getContext("2d");
+    context.font = "24px sans-serif";
+    context.fillText("Canvas drawing area", 20, 60);
+  </script>
+</body>
 </html>
